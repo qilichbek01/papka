@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px 50px 50px 50px;
+}
+
+.container {
+  width: 963px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(180deg, #FFF 0%, #E2F1FF 100%);
+}
+.container .navbar .bacground {
+  background: linear-gradient(180deg, #FFF 0%, #E2F1FF 100%);
+}
+.container .customs {
+  border: none;
+  margin-left: 350px;
+}
+.container .navbar a {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  text-decoration: none;
+}
+.container .navbar button {
+  width: 142px;
+  height: 38px;
+  border-radius: 23px;
+  border: 1px solid #722ED1;
+  background: #FFF;
+  color: #722ED1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .section1 {
+  margin-top: 139px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(180deg, #FFF 0%, #E2F1FF 100%);
+}
+.container .star {
+  display: flex;
+  align-items: center;
+  background-color: #F7F1FF;
+  width: 258px;
+  height: 40px;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 12px;
+}
+.container .star p {
+  color: #722ED1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.container .star a {
+  color: #722ED1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+.container .realtim h1 {
+  color: #000;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 24px;
+}
+.container .realtim p {
+  color: #b3a9a9;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 24px;
+}
+.container .startfreee {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+.container .starttria {
+  width: 142px;
+  height: 38px;
+  background-color: #722ED1;
+  border-radius: 23px;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+.container .learnmorr {
+  width: 142px;
+  height: 38px;
+  background: #FFF;
+  border-radius: 23px;
+  color: #722ED1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+.container .section2 {
+  margin-top: 112px;
+}
+.container .why {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #722ED1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: #F7F1FF;
+  width: 157.78px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 8px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+.container .getact h1 {
+  text-align: center;
+  color: #160637;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 40px;
+  margin-top: 24px;
+}
+.container .getact p {
+  width: 672px;
+  color: #8989A2;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+.container .valham {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  justify-content: center;
+  gap: 16px;
+}
+.container .valuable {
+  width: 307px;
+  height: 168px;
+  text-align: center;
+}
+.container .valuable h6 {
+  color: #160637;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  margin-top: 16px;
+}
+.container .valuable p {
+  color: #8989A2;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.container .valham img {
+  width: 40px;
+  height: 40px;
+}
+.container .section3 {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin-top: 100px;
+}
+.container .signup {
+  background-color: #FFFFFF;
+  width: 428px;
+  height: 494px;
+  border-radius: 25px;
+  box-shadow: 4px 4px 12px 0px rgba(137, 137, 162, 0.12);
+}
+.container .sevhamm {
+  width: 431px;
+}
+.container .seewht h1 {
+  color: #160637;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 40px;
+}
+.container .chiz1 {
+  width: 130px;
+  height: 1px;
+  background-color: #f20f0f;
+  border: 1px;
+}
+.container .chiz2 {
+  width: 130px;
+  height: 1px;
+  background-color: #f20f0f;
+  border: 1px;
+}
+.container .chizz {
+  display: flex;
+  margin-top: 35px;
+  align-items: center;
+  gap: 20px;
+}
+.container .accentur {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 102px;
+}
+.container .signup h1 {
+  color: #160637;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 32px;
+}
+.container .signup button {
+  width: 344px;
+  height: 48px;
+  background-color: #722ED1;
+  border: navajowhite;
+  color: #FFF;
+  text-align: center;
+  font-family: Metropolis;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 40px;
+  margin-top: 16px;
+}
+.container .signup input {
+  margin-top: 16px;
+  width: 348px;
+  height: 48px;
+  margin-left: 40px;
+  padding-left: 20px;
+}
+.container .signup h5 {
+  text-align: center;
+  margin-top: 16px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .signup img {
+  margin-left: 115px;
+  margin-top: 16px;
+}
+.container .chiz5 {
+  width: 336px;
+  height: 1px;
+  background-color: #8989A2;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-top: 16px;
+}
+.container .logggi p {
+  text-align: center;
+  margin-top: 16px;
+  color: #8989A2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .logggi span {
+  color: #722ED1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .logggi span a {
+  text-decoration: none;
+}
+.container .section4 {
+  width: 963px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  gap: 40px;
+}
+.container .wann1 p {
+  width: 209px;
+  margin-top: 14px;
+  color: #160637;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.container .logolar {
+  margin-top: 24px;
+}
+.container .wann2 {
+  width: 72px;
+  height: 244px;
+}
+.container .wann2 h5 {
+  color: #160637;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .wann2 a {
+  color: #160637;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+  padding-top: 50px;
+}
+.container .wann3 {
+  width: 121px;
+  height: 132px;
+}
+.container .wann3 h5 {
+  color: #160637;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .wann3 a {
+  color: #160637;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+  padding-top: 50px;
+}
+.container .wann4 {
+  width: 76px;
+  height: 104px;
+}
+.container .wann4 h5 {
+  color: #160637;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .wann4 a {
+  color: #160637;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+  padding-top: 50px;
+}
+.container .wann5 {
+  width: 90px;
+  height: 216px;
+}
+.container .wann5 h5 {
+  color: #160637;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .wann5 a {
+  color: #160637;
+  font-size: 12px;
+  font-style: nor mal;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+  padding-top: 50px;
+}
+.container .wann6 {
+  width: 180px;
+  height: 200px;
+}
+.container .wann6 h5 {
+  color: #160637;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .wann6 a {
+  color: #160637;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+  padding-top: 50px;
+}
+.container .wann6 input {
+  position: relative;
+  width: 180px;
+  height: 40px;
+  box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.05);
+  border: none;
+  margin-top: 24px;
+  padding-left: 10px;
+}
+.container .wann6 button {
+  position: absolute;
+  border: none;
+  background-color: #FFF;
+  margin-top: 35px;
+  margin-left: -28px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

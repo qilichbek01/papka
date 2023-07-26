@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+max-width: 1400px;
+margin: 0 auto;
+padding: 50px 50px 50px 50px;
+}
+
+.container{
+    width: 963px;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: linear-gradient(180deg, #FFF 0%, #E2F1FF 100%);
+        .bacground{
+            background: linear-gradient(180deg, #FFF 0%, #E2F1FF 100%);
+        }
+    }
+    .customs{
+        border: none;
+        margin-left: 350px;
+    }
+    .navbar a{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-decoration: none;
+    }
+    .navbar button{
+    width: 142px;
+    height: 38px;
+    border-radius: 23px;
+    border: 1px solid #722ED1;
+    background: #FFF;
+    color: #722ED1;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+    .section1{
+        margin-top: 139px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        background: linear-gradient(180deg, #FFF 0%, #E2F1FF 100%);
+    }
+    .star{
+        display: flex;
+        align-items: center;
+        background-color: #F7F1FF;
+        width: 258px;
+        height: 40px;
+        padding: 20px;
+        border-radius: 20px;
+        gap: 12px;
+    }
+
+    .star p{
+    color: #722ED1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    }
+    .star a{
+    color: #722ED1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration-line: underline;
+    }
+    .realtim h1{
+    color: #000;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 24px;
+    }
+    .realtim p{
+    color: #b3a9a9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 24px;
+    }
+    .startfreee{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+    }
+    .starttria{
+    width: 142px;
+    height: 38px;
+    background-color: #722ED1;
+    border-radius: 23px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    }
+    .learnmorr{
+        width: 142px;
+    height: 38px;
+    background: #FFF;
+    border-radius: 23px;
+    color: #722ED1;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    }
+
+    .section2{
+        margin-top: 112px;
+    }
+    .why{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #722ED1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #F7F1FF;
+    width: 157.78px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 0 auto;
+    margin-top: 24px;
+    }
+    .getact h1{
+    text-align: center;
+    color: #160637;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 24px;
+    }
+    .getact p{
+    width: 672px;
+    color: #8989A2;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-top: 24px;
+    }
+
+    .valham{
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+        justify-content: center;
+        gap: 16px;
+    }
+    .valuable{
+        width: 307px;
+        height: 168px;
+        text-align: center;
+    }
+    .valuable h6{
+    color: #160637;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 16px;
+    }
+    .valuable p{
+    color: #8989A2;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    }
+    .valham img{
+        width: 40px;
+        height: 40px;
+    }
+    .section3{
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        margin-top: 100px;
+    }
+    .signup{
+        background-color: #FFFFFF;
+        width: 428px;
+        height: 494px;
+        // border: 2px solid black;
+        // padding: 50px;
+        border-radius: 25px;
+        box-shadow: 4px 4px 12px 0px rgba(137, 137, 162, 0.12);
+    }
+    .sevhamm{
+        width: 431px;
+    }
+    .seewht h1{
+    color: #160637;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    }
+    .chiz1{
+    width: 130px;
+    height: 1px;
+    background-color: #f20f0f;
+    border: 1px;
+    }
+    .chiz2{
+        width: 130px;
+        height: 1px;
+        background-color: #f20f0f;
+        border: 1px;
+        }
+    .chizz{
+        display: flex;
+        margin-top: 35px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .accentur{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 102px;
+    }
+    .signup h1{
+    color: #160637;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 32px;
+
+    }
+
+    .signup button{
+    width: 344px;
+    height: 48px;
+    background-color: #722ED1;
+    border: navajowhite;
+    color: #FFF;
+    text-align: center;
+    font-family: Metropolis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 40px;
+    margin-top: 16px;
+    }
+    .signup input{
+        margin-top: 16px;
+        width: 348px;
+        height: 48px;
+        margin-left: 40px;
+        padding-left: 20px;
+    }
+    .signup h5{
+    text-align: center;
+    margin-top: 16px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .signup img{
+        margin-left: 115px;
+        margin-top: 16px;
+    }
+    .chiz5{
+    width: 336px;
+    height: 1px;
+    background-color: #8989A2;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 16px;
+    }
+    .logggi p{
+    text-align: center;
+    margin-top: 16px;
+    color: #8989A2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .logggi span{
+    color: #722ED1;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+    .logggi span a{
+        text-decoration: none;
+    }
+
+    .section4{
+        width: 963px;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: flex;
+        gap: 40px;
+    }
+    .wann1 p{
+    width: 209px;
+    margin-top: 14px;
+    color: #160637;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    }
+    .logolar{
+        margin-top: 24px;
+    }
+
+    .wann2{
+        width: 72px;
+        height: 244px;
+    }
+    .wann2 h5{
+    color: #160637;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .wann2 a{
+        color: #160637;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;  
+        text-decoration: none;
+        padding-top: 50px;
+    }
+
+    .wann3{
+        width: 121px;
+        height: 132px;
+    }
+    .wann3 h5{
+    color: #160637;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .wann3 a{
+        color: #160637;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;  
+        text-decoration: none;
+        padding-top: 50px;
+    }
+
+    .wann4{
+        width: 76px;
+        height: 104px;
+    }
+    .wann4 h5{
+    color: #160637;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .wann4 a{
+        color: #160637;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;  
+        text-decoration: none;
+        padding-top: 50px;
+    }
+
+    .wann5{
+        width: 90px;
+        height: 216px;
+    }
+    .wann5 h5{
+    color: #160637;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .wann5 a{
+        color: #160637;
+        font-size: 12px;
+        font-style: nor mal;
+        font-weight: 500;
+        line-height: 20px;  
+        text-decoration: none;
+        padding-top: 50px;
+    }
+
+    .wann6{
+        width: 180px;
+        height: 200px;
+    }
+    .wann6 h5{
+    color: #160637;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .wann6 a{
+        color: #160637;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;  
+        text-decoration: none;
+        padding-top: 50px;
+    }
+    .wann6 input{
+        position: relative;
+    width: 180px;
+    height: 40px;
+    box-shadow: (0px 5px 9px rgba(0, 0, 0, 0.05));
+    border: none;
+    margin-top: 24px;
+    padding-left: 10px;
+    }
+
+    .wann6 button{
+        position: absolute;
+        border: none;
+        background-color: #FFF;
+        margin-top: 35px;
+        margin-left: -28px;
+        cursor: pointer;
+    }
+}
